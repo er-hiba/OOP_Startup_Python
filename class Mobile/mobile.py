@@ -12,11 +12,10 @@ class Mobile() :
 {self.storage}GB \nSerial number: {self.serial_num} \nDual Sim: {self.dual_sim} \nSupport 4k: \
 {self.support4k}")
 
+# Main Program
 
 phone1 = Mobile("Samsung","Galaxy S23", 256, 12345678910, "Yes", "Yes")
 
 phone2 = Mobile("Apple","Iphone 14", 512, 109876543210, "Yes", "Yes")
 
 phone1.info()
-
-
