@@ -7,6 +7,7 @@ class Player():
     def info(self):
         print(f"Player: {self.name} \nAge: {self.age} \nRank: {self.rank}")
 
+# Main Program
 player1 = Player("Neymar Jr", 31, 13)
 
 player2 = Player("Lionel Messi", 36, 4)
